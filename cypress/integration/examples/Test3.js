@@ -36,6 +36,8 @@ describe('My Second Test', function(){
         // Radio Buttons
         cy.get('.radioButton').should('have.length',3)
         cy.get('[for="radio3"]').check().should('be.checked')
+
+        //How to handle Pop ups.
         
     })
 })
